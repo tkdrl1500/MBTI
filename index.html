@@ -18,39 +18,47 @@
     <div>
       <!-- Navigation bar -->
       <header>
-        <nav class="navBar">
-          <div><img src="./img/v2.png" alt="Logo" /></div>
-          <div>깨알유머</div>
-          <div>
-            <button>
-              <i class="fas fa-globe"></i><i class="fas fa-caret-down"></i
-              ><i class="fas fa-caret-left"></i>
+        <ul class="navBar">
+          <li style="position: relative; top: 2px">
+            <a href="#"><img src="./img/v.png" alt="Logo" /></a>
+          </li>
+          <li>깨알유머</li>
+          <li>
+            <button class="navBar-btn">
+              <i class="fas fa-globe"></i>
+              <i class="fas fa-caret-down"></i>
             </button>
-          </div>
-        </nav>
+          </li>
+        </ul>
+        <div class="dropDownBox show">
+          <ul class="dropDownBox items">
+            <li class="dropDownBox_item"><span>한국어</span></li>
+            <li><span>English</span></li>
+          </ul>
+        </div>
       </header>
 
       <!-- Menu bar -->
       <div>
         <section class="menuBar">
-          <div class="munuBar-items">
-            <button class="munuBar-itemBtn">MBTI 테스트</button>
-            <button class="munuBar-itemBtn">MBTI 스타일</button>
-            <button class="munuBar-itemBtn">갤러리</button>
-          </div>
+          <ul class="munuBar-items">
+            <li><button class="munuBar-itemBtn">MBTI 테스트</button></li>
+            <li><button class="munuBar-itemBtn">MBTI 스타일</button></li>
+            <li><button class="munuBar-itemBtn">갤러리</button></li>
+          </ul>
         </section>
       </div>
 
       <!--Contents  -->
       <div>
-        <section class="Contents">
-          <div>
-            <div class="textBar">MBTI 무료 성격유형 테스트</div>
+        <section class="contents">
+          <div class="content">
+            <h1 class="textBar">MBTI 무료 성격유형 테스트</h1>
             <div class="textBar">
               10개의 질문으로 나의 MBTI 유형을 알아보세요.
             </div>
           </div>
-          <div>
+          <div class="content">
             <div class="inputBar">
               <label for="inputBar-text">이름</label>
               <input
@@ -60,7 +68,7 @@
               />
             </div>
           </div>
-          <div>
+          <div class="content">
             <button class="startBtn">바로 시작하기</button>
           </div>
         </section>

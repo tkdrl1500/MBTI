@@ -1,0 +1,123 @@
+body {
+  background-color: rgb(50, 54, 57);
+  margin: 0;
+  box-sizing: border-box;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.navBar {
+  display: flex;
+  background-color: antiquewhite;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  list-style: none;
+  padding: 0;
+}
+
+.navBar-btn {
+  border: none;
+  background-color: transparent;
+  font-size: 20px;
+  margin-right: 16px;
+}
+
+.dropDownBox {
+  padding: 0;
+  text-align: right;
+}
+
+.dropDownBox.items {
+  background-color: yellow;
+  display: inline-block;
+  list-style: none;
+  position: absolute;
+  right: 0px;
+  padding: 14px 92px 14px 14px;
+  border: 1px solid;
+  margin: 0;
+}
+
+.dropDownBox_item {
+  margin-bottom: 9px;
+}
+
+.show {
+  display: none;
+}
+
+.menuBar {
+  height: 38px;
+}
+
+.munuBar-items {
+  display: flex;
+  background-color: aquamarine;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0px;
+  list-style: none;
+  height: 34px;
+  padding: 0;
+}
+
+.munuBar-itemBtn {
+  border: none;
+  background-color: transparent;
+  height: 33.5px;
+  font-weight: bold;
+}
+
+.contents {
+  padding: 10px;
+}
+
+.content {
+  margin-bottom: 10px;
+}
+
+.textBar {
+  text-align: center;
+  color: white;
+  margin: 0 0 10px 0;
+}
+
+.startBtn {
+  width: 100%;
+}
+
+.inputBar {
+  background-color: aliceblue;
+  display: flex;
+  align-items: center;
+  height: 47px;
+  border-radius: 8px;
+}
+
+label {
+  background-color: yellow;
+  padding: 7.5px 15px;
+  height: 32px;
+  width: 57px;
+  border-bottom-left-radius: 8px;
+  border-top-left-radius: 8px;
+}
+
+#inputBar-text {
+  width: 100%;
+  border-bottom-right-radius: 8px;
+  border-top-right-radius: 8px;
+  height: 43px;
+  font-size: 20px;
+}
+
+.startBtn {
+  height: 46.6px;
+  border-radius: 8px;
+  background-color: rgb(167, 106, 224);
+  font-weight: bold;
+  font-size: 18px;
+}
