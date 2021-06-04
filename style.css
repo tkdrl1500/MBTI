@@ -121,3 +121,73 @@ label {
   font-weight: bold;
   font-size: 18px;
 }
+
+#contentSecond {
+  display: none;
+}
+
+.progress {
+  text-align: center;
+  margin-top: 8px;
+  color: aliceblue;
+}
+
+.qna {
+  text-align: center;
+  color: aliceblue;
+}
+
+.answerBar {
+  padding: 0;
+  text-align: center;
+  list-style: none;
+  color: aliceblue;
+}
+
+.answerF:hover,
+.answerS:hover {
+  cursor: pointer;
+  color: black;
+  background-color: antiquewhite;
+}
+
+/* 페이지 넘기기 */
+@keyframes fadeIn {
+  from {
+    opacity: 0; /*시작할때 투명도 0로 시작해서 */
+  }
+
+  to {
+    opacity: 1; /*끝날때 1으로 가면 마치 생기는 효과다*/
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1; /*시작할때 투명도 1로 시작해서 */
+  }
+
+  to {
+    opacity: 0; /*끝날때 0으로 가면 마치 없어지는 효과다*/
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0; /*시작할때 투명도 0로 시작해서 */
+  }
+
+  to {
+    opacity: 1; /*끝날때 1으로 가면 마치 생기는 효과다*/
+  }
+}
+
+@-webkit-keyframes fadeOut {
+  from {
+    opacity: 1; /*시작할때 투명도 1로 시작해서 */
+  }
+
+  to {
+    opacity: 0; /*끝날때 0으로 가면 마치 없어지는 효과다*/
+  }
+}
